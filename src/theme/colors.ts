@@ -1,0 +1,46 @@
+/** VS Code–inspired palette */
+export const vscodeDark = {
+  background: '#1E1E1E',
+  surface: '#252526',
+  surfaceElevated: '#2D2D30',
+  border: '#3E3E42',
+  text: '#CCCCCC',
+  textSecondary: '#858585',
+  textMuted: '#6A6A6A',
+  primary: '#007ACC',
+  primaryLight: '#3794FF',
+  accent: '#4EC9B0',
+  error: '#F48771',
+  warning: '#CCA700',
+  favorite: '#FFD700',
+  codeBg: '#1E1E1E',
+  searchBg: '#3C3C3C',
+  tabActive: '#FFFFFF',
+  tabInactive: '#858585',
+  fab: '#007ACC',
+  success: '#4EC9B0',
+};
+
+export const vscodeLight = {
+  background: '#F3F3F3',
+  surface: '#FFFFFF',
+  surfaceElevated: '#F8F8F8',
+  border: '#E5E5E5',
+  text: '#333333',
+  textSecondary: '#616161',
+  textMuted: '#9E9E9E',
+  primary: '#0078D4',
+  primaryLight: '#106EBE',
+  accent: '#16825D',
+  error: '#E51400',
+  warning: '#BF8803',
+  favorite: '#CA8A04',
+  codeBg: '#F5F5F5',
+  searchBg: '#EDEDED',
+  tabActive: '#0078D4',
+  tabInactive: '#616161',
+  fab: '#0078D4',
+  success: '#16825D',
+};
+
+export type AppColors = typeof vscodeDark;

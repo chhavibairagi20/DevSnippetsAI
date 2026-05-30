@@ -1,0 +1,41 @@
+export const PROGRAMMING_LANGUAGES = [
+  'javascript',
+  'typescript',
+  'python',
+  'java',
+  'kotlin',
+  'swift',
+  'dart',
+  'go',
+  'rust',
+  'csharp',
+  'cpp',
+  'html',
+  'css',
+  'sql',
+  'json',
+  'bash',
+  'other',
+] as const;
+
+export type ProgrammingLanguage = (typeof PROGRAMMING_LANGUAGES)[number];
+
+export const LANGUAGE_COLORS: Record<string, string> = {
+  javascript: '#F7DF1E',
+  typescript: '#3178C6',
+  python: '#3776AB',
+  java: '#ED8B00',
+  kotlin: '#7F52FF',
+  swift: '#FA7343',
+  dart: '#0175C2',
+  go: '#00ADD8',
+  rust: '#DEA584',
+  csharp: '#239120',
+  cpp: '#00599C',
+  html: '#E34F26',
+  css: '#1572B6',
+  sql: '#336791',
+  json: '#CBCB41',
+  bash: '#4EAA25',
+  other: '#858585',
+};
